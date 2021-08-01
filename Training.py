@@ -4,7 +4,7 @@ from torch.optim import lr_scheduler
 import torchvision
 import torchvision.transforms as transforms
 import torch.nn.functional as F
-from ConvNet import ConvNet
+from convnet import ConvNet
 
 import sys
 import time
