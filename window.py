@@ -71,9 +71,3 @@ class PaintBox(Frame):
         class_probabilities = torch.softmax(outputs,1)
         prob,pred = torch.max(class_probabilities,1)
         self.text.set(f'You typed {pred.item()} with probability {prob.item()}')
-        
-def main():
-    PaintBox().mainloop()
-
-if __name__ == "__main__":
-    main()
