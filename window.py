@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 import torch
-from ConvNet import ConvNet
+from convnet import ConvNet
 
 #LOADING MODEL
 device = torch.device('cpu')
